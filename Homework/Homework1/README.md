@@ -29,8 +29,8 @@ The following operations replace the top two elements of the main stack with the
 - <- compares the above two elements of the stack and pushes 1 (if x <y) or 0 (otherwise) onto the stack
 - <= - compares the above two elements of the stack and pushes 1 (if x <= y) or 0 (otherwise) onto the stack
 - == - compares the above two elements of the stack and pushes 1 (if x == y) or 0 (otherwise) onto the stack
-- > - compares the above two elements of the stack and pushes 1 (if x> y) or 0 (otherwise) onto the stack
-- > = - compares the above two elements of the stack and pushes 1 (if x> = y) or 0 (otherwise) onto the stack
+- >  - compares the above two elements of the stack and pushes 1 (if x> y) or 0 (otherwise) onto the stack
+- >= - compares the above two elements of the stack and pushes 1 (if x> = y) or 0 (otherwise) onto the stack
 - + - pushes the sum of the top two elements of the stack onto the stack
 - - - pushes the difference of the top two elements of the stack onto the stack
 - * - pushes the product of the top two elements of the stack onto the stack
