@@ -122,3 +122,4 @@ To present the stacks, first write down the Stack interface (abstract data type)
 Note that the entire expression (program) is written in one line, so before processing each input line, all stacks are empty and the fulfillment of the condition is set to FALSE.
 
 You can use operations on Java primitive types (int) as arithmetic operations, and the Math.random () method to determine a random number.
+ 
