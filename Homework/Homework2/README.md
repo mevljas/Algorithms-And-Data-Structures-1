@@ -43,39 +43,38 @@ The display of the operation of an individual method is performed by printing a 
 ```
 trace insert up
 42 17 27 51 39
-
 42 17 27 51 39
 17 42 | 27 51 39
 17 27 42 | 51 39
 17 27 42 51 | 39
 17 27 39 42 51 |
+
 trace select down
 42 17 27 51 39
-
 42 17 27 51 39
 51 | 17 27 42 39
 51 42 | 27 17 39
 51 42 39 | 17 27
 51 42 39 27 | 17
+
 trace bubble down
 42 17 27 51 39
-
 42 17 27 51 39
 51 | 42 17 27 39
 51 42 39 | 17 27
 51 42 39 27 | 17
+
 trace heap up
 42 17 27 51 39
-
 42 17 27 51 39
 51 42 27 17 39 |
 42 39 27 17 | 51
 39 17 27 | 42 51
 27 17 | 39 42 51
 17 | 27 39 42 51
+
 trace merge up
 42 17 27 51 39
-
 42 17 27 51 39
 42 17 27 | 51 39
 42 17 | 27
@@ -85,22 +84,22 @@ trace merge up
 51 | 39
 39 51
 17 27 39 42 51
+
 trace quick down
 42 17 27 51 39
-
 42 17 27 51 39
 51 | 42 | 27 17 39
 39 | 27 | 17
 51 42 39 27 17
+
 trace radix up
 42 17 27 51 39
-
 42 17 27 51 39
 51 42 17 27 39
 17 27 39 42 51
+
 trace bucket down
 42 17 27 51 39
-
 42 17 27 51 39
 42 51 39 | 17 27
 51 42 | 39 17 27
@@ -120,34 +119,33 @@ The values are written one after the other, separated by a space, with a line (|
 ```
 count insert up
 42 17 27 51 39
-
 12 7 | 8 4 | 18 10
+
 count select down
 42 17 27 51 39
-
 12 10 | 12 10 | 12 10
+
 count bubble down
 42 17 27 51 39
-
 18 8 | 0 4 | 30 10
+
 count heap up
 42 17 27 51 39
-
 24 12 | 30 12 | 24 10
+
 count merge up
 42 17 27 51 39
-
 24 8 | 24 7 | 24 5
+
 count quick down
 42 17 27 51 39
-
 14 10 | 16 18 | 16 16
+
 count radix up
 42 17 27 51 39
-
 20 20 | 20 20 | 20 20
+
 count bucket down
 42 17 27 51 39
-
 20 22 | 18 18 | 22 21
 ```
