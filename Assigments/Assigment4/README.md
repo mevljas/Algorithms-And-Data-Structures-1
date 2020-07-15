@@ -62,7 +62,7 @@ Implementation              Time [ms]       Shifts      Comparison
 
 Unordered array (64.2x)     xx              xx          xx  
 
-Implicit heap (64.2x)    xx              xx          xx  
+Implicit heap (64.2x)       xx              xx          xx  
 
 Explicit heap               xx              xx          xx
 ```
