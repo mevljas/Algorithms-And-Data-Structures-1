@@ -50,8 +50,8 @@ In both array implementations, the initial capacity should be 64, but in case of
 In the **Assigment4** test class, perform a speed comparison of all three priority type implementations. To do this, perform a sequence of the same operations on all three: say, first fill all three with a larger number of elements (say 1000 random numbers - Integer objects), and then perform many (say 500) consecutive eliminations (largest element), insertions (random) elements) and printouts of the first (largest) elements. At the same time, measure the **time (in ms)** for each implementation, count the **number of shifts** (= adjustments of the variable type T) and **comparisons** (= calls to the **compareTo** method).
   
 Print the result in tabular form. 
-
-**Objects: Integer  
+```
+Objects: Integer  
 
 
 Operations: 1000 enqueue + 500 (dequeue + enqueue + front)  
@@ -64,6 +64,7 @@ Unordered field (64.2x) xx xx xx
 
 Implicit bastard (64.2x) xx xx xx  
 
-Explicit heap xx xx xx **  
+Explicit heap xx xx xx
+```
 
 Adjust the execution of the experiment (number and type of operations) so that you get a clear result.
