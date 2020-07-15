@@ -29,11 +29,11 @@ The following operations replace the top two elements of the main stack with the
 - <- compares the above two elements of the stack and pushes 1 (if x <y) or 0 (otherwise) onto the stack
 - <= - compares the above two elements of the stack and pushes 1 (if x <= y) or 0 (otherwise) onto the stack
 - == - compares the above two elements of the stack and pushes 1 (if x == y) or 0 (otherwise) onto the stack
-- />  - compares the above two elements of the stack and pushes 1 (if x> y) or 0 (otherwise) onto the stack
-- />= - compares the above two elements of the stack and pushes 1 (if x> = y) or 0 (otherwise) onto the stack
-- + - pushes the sum of the top two elements of the stack onto the stack
-- - - pushes the difference of the top two elements of the stack onto the stack
-- * - pushes the product of the top two elements of the stack onto the stack
+-  >  - compares the above two elements of the stack and pushes 1 (if x> y) or 0 (otherwise) onto the stack
+-  >= - compares the above two elements of the stack and pushes 1 (if x> = y) or 0 (otherwise) onto the stack
+-  + - pushes the sum of the top two elements of the stack onto the stack
+-  - - pushes the difference of the top two elements of the stack onto the stack
+-  * - pushes the product of the top two elements of the stack onto the stack
 - / - pushes the quotient (integer division) of the top two elements of the stack onto the stack
 - % - pushes the residue onto the stack after dividing the element below the top with the element on top
 - . - glass (merge, glue) the top two elements of the stack into one element (x y -> xy)
