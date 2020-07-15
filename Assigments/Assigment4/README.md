@@ -56,15 +56,15 @@ Objects: Integer
 
 Operations: 1000 enqueue + 500 (dequeue + enqueue + front)  
 
-Implementation Time [ms] Shifts Comparison  
+Implementation              Time [ms]       Shifts      Comparison  
 
 --------------------------------------------------- ------------------------------------  
 
-Unordered field (64.2x) xx xx xx  
+Unordered array (64.2x)     xx              xx          xx  
 
-Implicit bastard (64.2x) xx xx xx  
+Implicit heap (64.2x)    xx              xx          xx  
 
-Explicit heap xx xx xx
+Explicit heap               xx              xx          xx
 ```
 
 Adjust the execution of the experiment (number and type of operations) so that you get a clear result.
