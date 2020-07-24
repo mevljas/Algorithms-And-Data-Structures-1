@@ -1,4 +1,4 @@
-# Editing the sequence of numbers
+# Sorting a sequence of numbers
 ## Instructions
 
 Write a program in Java that shows and measures the editing of a sequence of integers using the various editing methods you learned in the lectures. The program should:
